@@ -18,9 +18,9 @@ default_platform(:ios)
 platform :ios do
  lane :adhoc do 
  match(
-git_url: 'https://github.com/Sumit24796/Fastlane25April.git'
-git_user_email: 'susingh@dminc.com'
-type: 'adhoc'
+git_url: 'https://github.com/Sumit24796/Fastlane25April.git',
+git_user_email: 'susingh@dminc.com',
+type: 'adhoc',
 )
 end
 end
